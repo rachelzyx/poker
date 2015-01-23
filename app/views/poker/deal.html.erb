@@ -1,0 +1,20 @@
+<h1>Welcome to the Devil's Deck Casino</h1>
+
+<%
+card11 = ["ace","2","3","4","5","6","7","8","9","10","jack","queen","king"].sample
+card12 = ["spades","hearts","clubs","diamonds"].sample
+card21 = ["ace","2","3","4","5","6","7","8","9","10","jack","queen","king"].sample
+card22 = ["spades","hearts","clubs","diamonds"].sample
+card31 = ["ace","2","3","4","5","6","7","8","9","10","jack","queen","king"].sample
+card32 = ["spades","hearts","clubs","diamonds"].sample
+card41 = ["ace","2","3","4","5","6","7","8","9","10","jack","queen","king"].sample
+card42 = ["spades","hearts","clubs","diamonds"].sample
+card51 = ["ace","2","3","4","5","6","7","8","9","10","jack","queen","king"].sample
+card52 = ["spades","hearts","clubs","diamonds"].sample
+%>
+
+<img src="http://golearntocode.com/images/cards/<%= card11.to_s.gsub('"','') %>_of_<%= card12.to_s.gsub('"','') %>.png" width=200px>
+<img src="http://golearntocode.com/images/cards/<%= card21.to_s.gsub('"','') %>_of_<%= card22.to_s.gsub('"','') %>.png" width=200px>
+<img src="http://golearntocode.com/images/cards/<%= card31.to_s.gsub('"','') %>_of_<%= card32.to_s.gsub('"','') %>.png" width=200px>
+<img src="http://golearntocode.com/images/cards/<%= card41.to_s.gsub('"','') %>_of_<%= card42.to_s.gsub('"','') %>.png" width=200px>
+<img src="http://golearntocode.com/images/cards/<%= card51.to_s.gsub('"','') %>_of_<%= card52.to_s.gsub('"','') %>.png" width=200px>
